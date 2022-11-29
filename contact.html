@@ -1,0 +1,167 @@
+<!--/*DEVELOPER: Ishan Rehan, IS117-001, Fall, 2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Ishan Rehan - Contact</title>
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/aos/aos.css" rel="stylesheet">
+    <link href="assets/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="page-contact">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center">
+
+                <h1 class="d-flex align-items-center">Ishan Rehan</h1>
+            </a>
+
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="certificates.html">Certificates</a></li>
+                    <li class="dropdown"><a href="contact.html"><span>Contact</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="contact.html">Contact Form</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main id="main">
+        <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/about-header.jpeg');">
+            <div class="container position-relative d-flex flex-column align-items-center">
+                <h2>Contact</h2>
+            </div>
+        </div>
+
+        <section id="contact" class="contact">
+            <div class="container position-relative" data-aos="fade-up">
+
+                <div class="row gy-4 d-flex justify-content-end">
+
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="info-item d-flex">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h4>Email:</h4>
+                                <p>ishan.19r@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item d-flex">
+                            <i class="bi bi-phone flex-shrink-0"></i>
+                            <div>
+                                <h4>Phone:</h4>
+                                <p>+1 973-936-3566</p>
+                            </div>
+                        </div>
+                        <div class="info-item d-flex">
+                            <i class="bi bi-phone flex-shrink-0"></i>
+                            <div>
+                                <h4>Instagram:</h4>
+                                <p>@ishanre_</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder=" Name">
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Topic">
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="15" placeholder="OR leave a message here!"></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message">No Mailbox Setup.</div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Submit</button></div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+
+        <div class="footer-content">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-5 col-md-12 footer-info">
+                        <a href="index.html" class="logo d-flex align-items-center">
+                            <span>Ishan Rehan</span>
+                        </a>
+                        <p>Windows Automation Co-op @ UPS | Student @ New Jersey Institute of Technology
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                        <h4>Contact Information</h4>
+                        <p>
+                            <br> Parsippany, NJ 07054<br> United States <br><br>
+                            <strong>Phone:</strong> +1 973-936-3566<br>
+                            <strong>Email:</strong> ishan.19r@gmail.com<br>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-legal fixed bottom">
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Ishan Rehan, November 29th, 2022.</span></strong> Privacy Notice. Terms of Service
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <div id="preloader"></div>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="assets/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/php-email-form/validate.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
